@@ -1,0 +1,90 @@
+@import './components/btn.scss';
+@import './components/section-title.scss';
+
+@import './sections/page-header.scss';
+// @import './sections/section-__.scss';
+@import './sections/page-footer.scss';
+
+/* Fix bootstrap */
+// @media (min-width: 1600px) {
+//   .container {
+//     max-width: 1520px;
+//   }
+// }
+// .btn{
+//   white-space: normal;
+// }
+
+/* Reset */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+a {
+  color: #000;
+}
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+ul{
+  padding-left: 0;
+}
+li{
+  list-style-type: none;
+}
+
+//Font awesome
+// @font-face {
+//   font-family: 'FontAwesome';
+//   src: url('../public/assets/fonts/fontawesome/fontawesome-webfont.eot?v=4.7.0');
+//   src: url('../public/assets/fonts/fontawesome/fontawesome-webfont.eot?#iefix&v=4.7.0')
+//       format('embedded-opentype'),
+//     url('../public/assets/fonts/fontawesome/fontawesome-webfont.woff2?v=4.7.0')
+//       format('woff2'),
+//     url('../public/assets/fonts/fontawesome/fontawesome-webfont.woff?v=4.7.0')
+//       format('woff'),
+//     url('../public/assets/fonts/fontawesome/fontawesome-webfont.ttf?v=4.7.0')
+//       format('truetype'),
+//     url('../public/assets/fonts/fontawesome/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular')
+//       format('svg');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+// custom font
+// @font-face {
+//   font-family: "___";
+//   src: url("../public/assets/fonts/___/___-Regular.eot");
+//   src: url("../public/assets/fonts/___/___-Regular.eot?#iefix") format("embedded-opentype"),
+//     url("../public/assets/fonts/___/___-Regular.woff") format("woff"), 
+//     url("../public/assets/fonts/___/___-Regular.ttf") format("truetype");
+//   font-style: normal;
+//   font-weight: 400;
+// }
+
+//Slider
+// .lb-cancel {
+//   background: url('../public/assets/images/slider/loading.gif') no-repeat;
+// }
+// .lb-nav a.lb-prev {
+//   background: url('../public/assets/images/slider/prev.png') left 48%
+//     no-repeat;
+// }
+// .lb-nav a.lb-next {
+//   background: url('../public/assets/images/slider/next.png') right 48%
+//     no-repeat;
+// }
+// .lb-data .lb-close {
+//   background: url('../public/assets/images/slider/close.png') top right
+//     no-repeat;
+// }
